@@ -16,12 +16,12 @@
 
 # RIL
 PRODUCT_COPY_FILES += \
-    vendor/samsung/klimtlte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so
+    vendor/samsung/klimtwifi/lib/libsec-ril.so:system/lib/libsec-ril.so
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    vendor/samsung/klimtwifi/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so
-
+    vendor/samsung/klimtwifi/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so
+    
 # Noise suppression
 PRODUCT_COPY_FILES += \
     vendor/samsung/klimtwifi/proprietary/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_EARPIECE.txt:system/vendor/etc/nxp/mVoIP/Tx_ControlParams_WIDEBAND_EARPIECE.txt \
